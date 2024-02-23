@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar that shows when a button is clicked</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="sidebar">
+        <div class="sidebar-top-wrapper">
+            <div class="sidebar-top">
+                <a href="" class="logo-wrapper">
+                    <img src="images/square-letter-k.svg" alt="Logo" class="k-svg">
+                    <span class="hide-company-name">Kedar</span>
+                </a>
+            </div>
+            <button class="expand-btn" type="button">
+                <img src="images/chevrons-left.svg" class="logo-small" alt="Logo">
+            </button>
+        </div>
+        <div class="search-wrapper">
+            <img src="images/search.svg" class="search-wrapper-svg" alt="Logo">
+            <input type="text">
+        </div>
+        <div class="sidebar-links">
+            <ul>
+                <li>
+                    <a href="" class="tooltip">
+                        <img src="images/home.svg" alt="Logo" class="logo-small">
+                        <span class="link-hide">Home</span>
+                        <span class="tooltip-content">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="tooltip">
+                        <img src="images/bulb-filled.svg" alt="Logo" class="logo-small">
+                        <span class="link-hide">Skills</span>
+                        <span class="tooltip-content">Skills</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="tooltip">
+                        <img src="images/mood-check.svg" alt="Logo" class="logo-small">
+                        <span class="link-hide">Interests</span>
+                        <span class="tooltip-content">Interests</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="tooltip">
+                        <img src="images/luggage.svg" alt="Logo" class="logo-small">
+                        <span class="link-hide">Projects</span>
+                        <span class="tooltip-content">Projects</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="sidebar-profile">
+            <div class="avatar-wrapper">
+                <img src="images/user-square-rounded.svg" alt="Kedar Picture" class="avatar">
+            </div>
+            <section class="avatar-name-hide">
+                <div class="username">Kedar</div>
+                <div class="email">omodaraomokayode@gmail.com</div>
+            </section>
+            <a href="" class="logout-svg">
+                <img src="images/logout.svg" class="logout-svg" alt="Logout">
+            </a>
+        </div>
+    </nav>
+<script src="app.js"></script>
+</body>
+</html>
